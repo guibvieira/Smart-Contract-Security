@@ -1,13 +1,18 @@
 pragma solidity >=0.4.22 <0.9.0;
 
-contract ReEntrancy {
-//insecure code
-  mapping(address => uint) balances;
+contract Migrations {
+  address public owner = msg.sender;
+  uint public last_completed_migration;
 
-  function withdrawAll() public {
-    uint amountToWithdraw = balances[msg.sender];
-    require(msg.sender.call.value(amountToWithdraw)()); //will trigger the fallback function of the malicious contract, causing an endless loop until contract is empty
-    balances[msg.sender] = 0;
+  modifier restricted() {
+    require(
+      msg.sender == owner,
+      "This function is restricted to the contract's owner"
+    );
+    _;
   }
 
+  function setCompleted(uint completed) public restricted {
+    last_completed_migration = completed;
+  }
 }
