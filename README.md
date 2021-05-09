@@ -49,3 +49,39 @@ To run the call() and delegatecall(), would be run like the following:
 ContractB.call(bytes4(sha3("runFunction(uint256)"), 100)
 ```
 
+## Push & Pull
+
+### Push
+Push funds to user
+
+```
+//Example of Push (bad)
+function play() payable {
+	//GAME LOGIC
+	
+	if (win){
+		player.transfer(prize)
+	}
+}
+```
+### Pull
+Let users pull out funds for themselves. This is better practise
+
+```
+//Example of Pull (good)
+
+mapping(address => uint) prizes;
+
+function play() public {
+	//GAME LOGIC
+	if (win){
+		prizes[player] = prize;
+	}
+}
+
+function getPrize() public {
+	uint prize = prizes[msg.sender];
+	prizes[msg.sender] = 0;
+	msg.sender.transfer(prize);
+}
+```
