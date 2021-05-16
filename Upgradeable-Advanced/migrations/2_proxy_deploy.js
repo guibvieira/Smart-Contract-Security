@@ -13,29 +13,29 @@ module.exports = async function(deployer, network, accounts){
   //Set the nr of dogs through the proxy
   await proxyDog.setNumberOfDogs(10);
 
-//   //Tested
-//   var nrOfDogs = await proxyDog.getNumberOfDogs();
-//   console.log("Before update: " + nrOfDogs.toNumber());
+  //Tested
+  var nrOfDogs = await proxyDog.getNumberOfDogs();
+  console.log("Before update: " + nrOfDogs.toNumber());
 
-//   //Deploy new version of Dogs
-//   const dogsUpdated = await DogsUpdated.new();
-//   proxy.upgrade(dogsUpdated.address);
+  //Deploy new version of Dogs
+  const dogsUpdated = await DogsUpdated.new();
+  proxy.upgrade(dogsUpdated.address);
 
-//   //Fool truffle once again. It now thinks proxyDog has all functions.
-//   proxyDog = await DogsUpdated.at(proxy.address);
-//   //Initialize proxy state.
-//   proxyDog.initialize(accounts[0]);
+  //Fool truffle once again. It now thinks proxyDog has all functions.
+  proxyDog = await DogsUpdated.at(proxy.address);
+  //Initialize proxy state.
+  proxyDog.initialize(accounts[0]);
 
-//   //Check so that storage remained
-//   nrOfDogs = await proxyDog.getNumberOfDogs();
-//   console.log("After update: " + nrOfDogs.toNumber());
+  //Check so that storage remained
+  nrOfDogs = await proxyDog.getNumberOfDogs();
+  console.log("After update: " + nrOfDogs.toNumber());
 
-//   //Set the nr of dogs through the proxy with NEW FUNC CONTRACT
-//   await proxyDog.setNumberOfDogs(30);
+  //Set the nr of dogs through the proxy with NEW FUNC CONTRACT
+  await proxyDog.setNumberOfDogs(30);
 
-//   //Check so that setNumberOfDogs worked with new func contract.
-//   nrOfDogs = await proxyDog.getNumberOfDogs();
-//   console.log("After change: " + nrOfDogs.toNumber());
+  //Check so that setNumberOfDogs worked with new func contract.
+  nrOfDogs = await proxyDog.getNumberOfDogs();
+  console.log("After change: " + nrOfDogs.toNumber());
 
 
 }

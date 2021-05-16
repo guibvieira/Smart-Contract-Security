@@ -64,11 +64,11 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.2+commit.1df8f40c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"toSet\",\"type\":\"uint256\"}],\"name\":\"setNumberOfDogs\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getNumberOfDogs\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"_initialized\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/Gui/dev/Smart-Contract-Security/Upgradeable-Advanced/contracts/Dogs.sol\":\"Dogs\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/Gui/dev/Smart-Contract-Security/Upgradeable-Advanced/contracts/Dogs.sol\":{\"keccak256\":\"0x5362ccc425d6535f3084ff2ba0105a939785e94b1605a535494ddb0aed3b50a5\",\"urls\":[\"bzzr://de3b05082c3bd4424b9d30505e007389134b9a0b1e322462d8b1d5862086d0ba\"]},\"/Users/Gui/dev/Smart-Contract-Security/Upgradeable-Advanced/contracts/Storage.sol\":{\"keccak256\":\"0x6e56ab02348462aa98177ea524e9cb43be198c2ad623fec235dab88fdbe8cef3\",\"urls\":[\"bzzr://de31d73e97b39d522533090e04a7405aba257d1f8768c6534a344d475a7379b5\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5033600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610216806100616000396000f3fe608060405234801561001057600080fd5b5060043610610069576000357c01000000000000000000000000000000000000000000000000000000009004806314861b221461006e5780631680a5ed1461009c5780633072cf60146100ba5780638da5cb5b146100dc575b600080fd5b61009a6004803603602081101561008457600080fd5b8101908080359060200190929190505050610126565b005b6100a461016c565b6040518082815260200191505060405180910390f35b6100c26101b1565b604051808215151515815260200191505060405180910390f35b6100e46101c4565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b80600060405180807f446f677300000000000000000000000000000000000000000000000000000000815250600401905090815260200160405180910390208190555050565b60008060405180807f446f6773000000000000000000000000000000000000000000000000000000008152506004019050908152602001604051809103902054905090565b600560149054906101000a900460ff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea165627a7a7230582040d935532e9a654928a4aee9294721746b06db57023dcb5f9f2195b6f49abe1f0029",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b5060043610610069576000357c01000000000000000000000000000000000000000000000000000000009004806314861b221461006e5780631680a5ed1461009c5780633072cf60146100ba5780638da5cb5b146100dc575b600080fd5b61009a6004803603602081101561008457600080fd5b8101908080359060200190929190505050610126565b005b6100a461016c565b6040518082815260200191505060405180910390f35b6100c26101b1565b604051808215151515815260200191505060405180910390f35b6100e46101c4565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b80600060405180807f446f677300000000000000000000000000000000000000000000000000000000815250600401905090815260200160405180910390208190555050565b60008060405180807f446f6773000000000000000000000000000000000000000000000000000000008152506004019050908152602001604051809103902054905090565b600560149054906101000a900460ff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea165627a7a7230582040d935532e9a654928a4aee9294721746b06db57023dcb5f9f2195b6f49abe1f0029",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.2+commit.1df8f40c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"toSet\",\"type\":\"uint256\"}],\"name\":\"setNumberOfDogs\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getNumberOfDogs\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"_initialized\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/Gui/dev/Smart-Contract-Security/Upgradeable-Advanced/contracts/Dogs.sol\":\"Dogs\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/Gui/dev/Smart-Contract-Security/Upgradeable-Advanced/contracts/Dogs.sol\":{\"keccak256\":\"0x5362ccc425d6535f3084ff2ba0105a939785e94b1605a535494ddb0aed3b50a5\",\"urls\":[\"bzzr://de3b05082c3bd4424b9d30505e007389134b9a0b1e322462d8b1d5862086d0ba\"]},\"/Users/Gui/dev/Smart-Contract-Security/Upgradeable-Advanced/contracts/Storage.sol\":{\"keccak256\":\"0x9d200aa34fe8d8e9f14e1756b27f4b7ad1fc287d56758024d1162b98b5855851\",\"urls\":[\"bzzr://78636a0c4609d73caeae7da51a522004327a898294eb57f010d34845184ea69c\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5033600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610216806100616000396000f3fe608060405234801561001057600080fd5b5060043610610069576000357c01000000000000000000000000000000000000000000000000000000009004806314861b221461006e5780631680a5ed1461009c5780633072cf60146100ba5780638da5cb5b146100dc575b600080fd5b61009a6004803603602081101561008457600080fd5b8101908080359060200190929190505050610126565b005b6100a461016c565b6040518082815260200191505060405180910390f35b6100c26101b1565b604051808215151515815260200191505060405180910390f35b6100e46101c4565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b80600060405180807f446f677300000000000000000000000000000000000000000000000000000000815250600401905090815260200160405180910390208190555050565b60008060405180807f446f6773000000000000000000000000000000000000000000000000000000008152506004019050908152602001604051809103902054905090565b600560149054906101000a900460ff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea165627a7a7230582098fa2753217b5f1bf2a894bed4d34afa01dc8de588859a7049d43bcad61a31a60029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b5060043610610069576000357c01000000000000000000000000000000000000000000000000000000009004806314861b221461006e5780631680a5ed1461009c5780633072cf60146100ba5780638da5cb5b146100dc575b600080fd5b61009a6004803603602081101561008457600080fd5b8101908080359060200190929190505050610126565b005b6100a461016c565b6040518082815260200191505060405180910390f35b6100c26101b1565b604051808215151515815260200191505060405180910390f35b6100e46101c4565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b80600060405180807f446f677300000000000000000000000000000000000000000000000000000000815250600401905090815260200160405180910390208190555050565b60008060405180807f446f6773000000000000000000000000000000000000000000000000000000008152506004019050908152602001604051809103902054905090565b600560149054906101000a900460ff1681565b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea165627a7a7230582098fa2753217b5f1bf2a894bed4d34afa01dc8de588859a7049d43bcad61a31a60029",
   "sourceMap": "49:341:0:-;;;150:50;8:9:-1;5:2;;;30:1;27;20:12;5:2;150:50:0;185:10;177:5;;:18;;;;;;;;;;;;;;;;;;49:341;;;;;;",
-  "deployedSourceMap": "49:341:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:341:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;301:86;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;301:86:0;;;;;;;;;;;;;;;;;:::i;:::-;;204:94;;;:::i;:::-;;;;;;;;;;;;;;;;;;;290:24:4;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;266:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;301:86:0;377:5;354:12;:20;;;;;;;;;;;;;;;;;;;;;;;;:28;;;;301:86;:::o;204:94::-;251:7;273:12;:20;;;;;;;;;;;;;;;;;;;;;;;;;266:27;;204:94;:::o;290:24:4:-;;;;;;;;;;;;;:::o;266:20::-;;;;;;;;;;;;;:::o",
+  "deployedSourceMap": "49:341:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:341:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;301:86;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;301:86:0;;;;;;;;;;;;;;;;;:::i;:::-;;204:94;;;:::i;:::-;;;;;;;;;;;;;;;;;;;352:24:3;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;328:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;301:86:0;377:5;354:12;:20;;;;;;;;;;;;;;;;;;;;;;;;:28;;;;301:86;:::o;204:94::-;251:7;273:12;:20;;;;;;;;;;;;;;;;;;;;;;;;;266:27;;204:94;:::o;352:24:3:-;;;;;;;;;;;;;:::o;328:20::-;;;;;;;;;;;;;:::o",
   "source": "pragma solidity 0.5.2;\n\nimport \"./Storage.sol\";\n\ncontract Dogs is Storage {\n\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n\n  constructor() public {\n    owner = msg.sender;\n  }\n\n  function getNumberOfDogs() public view returns(uint256) {\n    return _uintStorage[\"Dogs\"];\n  }\n  function setNumberOfDogs(uint256 toSet) public {\n    _uintStorage[\"Dogs\"] = toSet;\n  }\n\n}",
   "sourcePath": "/Users/Gui/dev/Smart-Contract-Security/Upgradeable-Advanced/contracts/Dogs.sol",
   "ast": {
@@ -97,7 +97,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 48,
-        "sourceUnit": 204,
+        "sourceUnit": 171,
         "src": "24:23:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -111,10 +111,10 @@
               "id": 3,
               "name": "Storage",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 203,
+              "referencedDeclaration": 170,
               "src": "66:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Storage_$203",
+                "typeIdentifier": "t_contract$_Storage_$170",
                 "typeString": "contract Storage"
               }
             },
@@ -124,7 +124,7 @@
           }
         ],
         "contractDependencies": [
-          203
+          170
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -132,7 +132,7 @@
         "id": 47,
         "linearizedBaseContracts": [
           47,
-          203
+          170
         ],
         "name": "Dogs",
         "nodeType": "ContractDefinition",
@@ -166,7 +166,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 218,
+                            "referencedDeclaration": 185,
                             "src": "114:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -195,7 +195,7 @@
                           "name": "owner",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 200,
+                          "referencedDeclaration": 167,
                           "src": "128:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -220,10 +220,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        221,
-                        222
+                        188,
+                        189
                       ],
-                      "referencedDeclaration": 221,
+                      "referencedDeclaration": 188,
                       "src": "106:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -288,7 +288,7 @@
                       "name": "owner",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 200,
+                      "referencedDeclaration": 167,
                       "src": "177:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -305,7 +305,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 218,
+                        "referencedDeclaration": 185,
                         "src": "185:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -378,7 +378,7 @@
                       "name": "_uintStorage",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 182,
+                      "referencedDeclaration": 149,
                       "src": "273:12:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_string_memory_$_t_uint256_$",
@@ -496,7 +496,7 @@
                         "name": "_uintStorage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 182,
+                        "referencedDeclaration": 149,
                         "src": "354:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_string_memory_$_t_uint256_$",
@@ -643,7 +643,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 204,
+          "SourceUnit": 171,
           "absolutePath": "/Users/Gui/dev/Smart-Contract-Security/Upgradeable-Advanced/contracts/Storage.sol",
           "file": "./Storage.sol",
           "scope": 48,
@@ -659,14 +659,14 @@
       {
         "attributes": {
           "contractDependencies": [
-            203
+            170
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
             47,
-            203
+            170
           ],
           "name": "Dogs",
           "scope": 48
@@ -681,7 +681,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Storage",
-                  "referencedDeclaration": 203,
+                  "referencedDeclaration": 170,
                   "type": "contract Storage"
                 },
                 "id": 3,
@@ -739,10 +739,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                221,
-                                222
+                                188,
+                                189
                               ],
-                              "referencedDeclaration": 221,
+                              "referencedDeclaration": 188,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -783,7 +783,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 218,
+                                      "referencedDeclaration": 185,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -802,7 +802,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 200,
+                                  "referencedDeclaration": 167,
                                   "type": "address",
                                   "value": "owner"
                                 },
@@ -899,7 +899,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 200,
+                              "referencedDeclaration": 167,
                               "type": "address",
                               "value": "owner"
                             },
@@ -925,7 +925,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 218,
+                                  "referencedDeclaration": 185,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1041,7 +1041,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 182,
+                              "referencedDeclaration": 149,
                               "type": "mapping(string memory => uint256)",
                               "value": "_uintStorage"
                             },
@@ -1177,7 +1177,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 182,
+                                  "referencedDeclaration": 149,
                                   "type": "mapping(string memory => uint256)",
                                   "value": "_uintStorage"
                                 },
@@ -1257,7 +1257,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-16T13:21:26.273Z",
+  "updatedAt": "2021-05-16T14:18:41.764Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
